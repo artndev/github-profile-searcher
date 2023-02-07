@@ -27,7 +27,13 @@ form.addEventListener("submit", e => {
                 alt="${data.login}"
             >
             <h2 class="card__title">
-                @${data.login}
+                @${
+                    data.login.length > 10
+                    ?
+                    data.login.slice(0, 10) + "..."
+                    :
+                    data.login
+                }
             </h2>
             <ul class="card__list">
                 <li class="card__list-item">
