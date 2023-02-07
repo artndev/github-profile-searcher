@@ -1,0 +1,50 @@
+  <img 
+                class="card__logo"
+                src="https://avatars.githubusercontent.com/u/97910780?v=4" 
+                alt="Logo"
+            >
+            <h2 class="card__title">
+                Art
+            </h2>
+            <ul class="card__list">
+                <li class="card__list-item">
+                    <b class="card__subtitle">
+                        ID: 
+                    </b>
+                    97910780
+                </li>
+                <li class="card__list-item">
+                    <b class="card__subtitle">
+                        Location: 
+                    </b>
+                    <p>
+                        Russian Federation
+                    </p>
+                </li>
+                <li class="card__list-item">
+                    <b class="card__subtitle">
+                        Bio: 
+                    </b>
+                    <p>
+                        Hello! I'm Artem!
+                    </p>
+                </li>
+                <li class="card__list-item">
+                    <b class="card__subtitle">
+                        Followers:
+                    </b>
+                    2
+                </li>
+                <li class="card__list-item">
+                    <b class="card__subtitle">
+                        Following:
+                    </b>
+                    1
+                </li>
+                <li class="card__list-item">
+                    <b class="card__subtitle">
+                        Public repositories:
+                    </b>
+                    1
+                </li>
+            </ul>
