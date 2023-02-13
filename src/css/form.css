@@ -27,7 +27,19 @@ body {
     animation: fame 2s;
 }
 
+.search__form {
+    display: grid;
+    grid-template-areas: 
+        "input input"
+        "button button button";
+    grid-gap: 1rem;
+    padding: 10px;
+}
+
+.grid__item { text-align: center; }
+
 .search__form-field {
+    grid-area: input;
     width: 15rem;
     height: 2rem;
 
@@ -40,17 +52,9 @@ body {
     padding: 10px;
 }
 
-.search__form {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-
-    padding: 10px;
-}
-
 .search__form-button {
+    grid-area: button;
+    background-color: blue;
     width: 15rem;
     height: 3rem;
 
